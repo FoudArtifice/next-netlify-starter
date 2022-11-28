@@ -6,18 +6,17 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Inscription terminée !</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Bienvenue sur Fou d'Artifice !" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Vous pouvez désormais vous connecter à votre compte.
         </p>
       </main>
 
-      <Footer />
     </div>
   )
 }
